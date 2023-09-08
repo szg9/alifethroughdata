@@ -1,0 +1,17 @@
+@import '../styles/colorDefinitions.scss';
+
+.footer {
+    background-color: color(white);
+    color: color(primary-color);
+    padding: 3em 8%;
+
+    p {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 600px) {
+    .footer {
+        padding: 3em 15%;
+    }
+}

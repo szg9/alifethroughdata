@@ -1,16 +1,16 @@
 import { useState } from 'react';
 
-import articles from './db/articles.json';
+import articles from './data/articles.json';
 
 import './App.scss';
-import Header from './Header';
-import Section from './Section';
-import Gallery from './Gallery';
-import FramedArea from './FramedArea';
-import Map from './Map';
-import JournalEntry from './JournalEntry';
-import Image from './Image';
-import Footer from './Footer';
+import Header from './layouts/Header';
+import Section from './layouts/Section';
+import Gallery from './components/Gallery';
+import FramedArea from './layouts/FramedArea';
+import Map from './components/Map';
+import JournalEntry from './layouts/JournalEntry';
+import Image from './components/Image';
+import Footer from './layouts/Footer';
 
 function App() {
 

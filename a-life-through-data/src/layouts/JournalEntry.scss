@@ -1,0 +1,57 @@
+@import '../styles/colorDefinitions';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Shadows+Into+Light+Two&display=swap');
+
+.journal-entry {
+    white-space: pre-wrap;
+    padding: 1.5em 14%;
+    background-color: color(white);
+    position: relative;
+
+    .journal-watermark {
+        font-weight: bold;
+        color: color(black);
+        filter: opacity(0.08);
+        position: absolute;
+        max-width: 38%;
+
+        p {
+            font-size: 1.4em;
+        }
+    }
+
+    .journal-text {
+        font-family: "Shadows Into Light Two";
+        color: color(primary-color);
+        font-size: 1.2em;
+        text-align: right;
+    }
+}
+
+@media (min-width: 600px) {
+    .journal-entry {
+        padding: 1.5em 24%;
+
+        .journal-watermark {
+            max-width: 68%;
+            padding-top: 1.4em;
+
+            p {
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+
+    .journal-entry {
+
+        .journal-watermark {
+            max-width: 100%;
+
+            p {
+                font-size: 3em;
+            }
+        }
+    }
+}
