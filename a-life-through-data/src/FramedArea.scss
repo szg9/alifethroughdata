@@ -1,0 +1,44 @@
+@import './colorDefinitions.scss';
+
+.framed-area {
+    padding: 1.5em 14%;
+    background-color: color(white);
+
+    .framed-title {
+        margin-bottom: 0.6em;
+        font-weight: bold;
+    }
+
+    p {
+        color: color(primary-color);
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 600px) {
+    .framed-area {
+        padding: 1.5em 24%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .box {
+        padding: 2em;
+
+        --b: 0.02em;
+        /* thickness of the border */
+        --c: #5f777777;
+        /* color of the border */
+        --w: calc(40% - 4.5em);
+        /* width of border */
+        border: var(--b) solid #0000;
+        /* space for the border */
+        --_g: #0000 90deg, var(--c) 0;
+        --_p: var(--w) var(--w) border-box no-repeat;
+        background:
+            conic-gradient(from 90deg at top var(--b) left var(--b), var(--_g)) 0 0 / var(--_p),
+            // conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 / var(--_p),
+            // conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% / var(--_p),
+            conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g)) 100% 100% / var(--_p);
+    }
+}

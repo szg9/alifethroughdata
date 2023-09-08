@@ -1,0 +1,8 @@
+@import './colorDefinitions.scss';
+
+nav>p {
+    color: color(white);
+    filter: opacity(90%);
+    font-weight: bold;
+    cursor: pointer;
+}

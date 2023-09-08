@@ -1,0 +1,57 @@
+@import './colorDefinitions';
+
+.container {
+  height: 100vh;
+  background-image: url('./assets/header-background.png');
+  background-size: cover;
+  background-position-x: 15%;
+  background-position-y: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.5em
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em 3em;
+}
+
+header {
+  height: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: color(white);
+
+  .header-details {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8em;
+
+    .reading-time {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5em;
+      filter: opacity(70%);
+
+      .clock-img {
+        height: 17px;
+        width: 17px;
+      }
+    }
+  }
+
+  .down-arrow-img {
+    height: 1.2em;
+    width: 1.2em;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+  }
+}
