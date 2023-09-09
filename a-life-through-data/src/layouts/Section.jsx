@@ -1,11 +1,11 @@
 import "./Section.scss";
 import SectionHeader from "./SectionHeader";
 
-function Section({ title, subTitle, text }) {
+function Section({ sectionTitle, sectionSubTitle, sectionText }) {
     return (
         <section className="section-normal">
-            {title === undefined ? "" : <SectionHeader title={title} subTitle={subTitle} />}
-            <p>{text}</p>
+            {sectionTitle === undefined ? "" : <SectionHeader title={sectionTitle} subTitle={sectionSubTitle} />}
+            <p>{sectionText}</p>
         </section>
     );
 }

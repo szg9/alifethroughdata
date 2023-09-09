@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import App from './App';
+import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 
 import ReactGA from 'react-ga';
@@ -12,7 +12,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App2 />
   </React.StrictMode>
 );
 
