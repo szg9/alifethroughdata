@@ -7,6 +7,7 @@ import './Post.scss';
 import Header from '../layouts/Header';
 import Section from '../layouts/Section';
 import Gallery from '../components/Gallery';
+import Gallery2 from '../components/Gallery';
 import FramedArea from '../layouts/FramedArea';
 import Map from '../components/Map';
 import JournalEntry from '../layouts/JournalEntry';
@@ -53,6 +54,7 @@ function Post() {
                     headerTitle: config.headerTitle,
                     headerSubTitle: config.headerSubTitle,
                     headerDetails: config.headerDetails,
+                    headerBackground: config.headerBackground,
                     headerReadingTime: config.headerReadingTime,
                     sectionTitle: config.sectionTitle,
                     sectionSubTitle: config.sectionSubTitle,
@@ -62,7 +64,8 @@ function Post() {
                     framedText: config.framedText,
                     journalDate: config.journalDate,
                     journalText: config.journalText,
-                    src: config.src
+                    url: config.url,
+                    images: config.images
                 }
             );
         }

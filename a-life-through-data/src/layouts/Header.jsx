@@ -5,7 +5,7 @@ import clock from '../assets/clock-outline.svg'
 import downArrow from '../assets/down-arrow.svg'
 import { useState, useEffect } from 'react';
 
-function Header({ headerTitle, headerSubTitle, headerDetails, headerReadingTime, language, handleLanguageChange, languageToChange }) {
+function Header({ headerTitle, headerSubTitle, headerDetails, headerReadingTime, headerBackground, language, handleLanguageChange, languageToChange }) {
 
   const [actualLanguage, setActualLanguage] = useState(language);
 
@@ -14,7 +14,7 @@ function Header({ headerTitle, headerSubTitle, headerDetails, headerReadingTime,
   });
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" style={{ backgroundImage: 'url(' + headerBackground + ')' }}>
       <nav className='navbar'>
         <LanguageButton handleLanguageChange={handleLanguageChange} languageToChange={languageToChange} />
       </nav>

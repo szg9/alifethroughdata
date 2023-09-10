@@ -1,14 +1,12 @@
-import './Gallery.scss';
-import useFlourish from '../hooks/UseFlourish';
+import "./Gallery.scss";
 
-const Gallery = props => {
-    useFlourish('https://public.flourish.studio/resources/embed.js');
-
+function Gallery({ images }) {
     return (
-        <div className='gallery-container'>
-            <div className="flourish-embed flourish-cards flourish-carousel" data-src={"visualisation/" + props.id}><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        <div className="gallery-container">
+            {images.map((url) =>
+                <div className="gallery-image" style={{ backgroundImage: 'url(' + url + ')' }}></div>
+            )}
         </div>
-
     )
 }
 

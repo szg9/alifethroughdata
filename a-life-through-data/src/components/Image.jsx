@@ -1,14 +1,9 @@
 import './Image.scss';
 
-function Image({ src }) {
-
-    const imgStyle = {
-        backgroundImage: 'url(' + src + ')'
-    }
-
+function Image({ url }) {
     return (
         <div className='image-container'>
-            <div className="image" style={imgStyle}></div>
+            <div className="image" style={{ backgroundImage: 'url(' + url + ')' }}></div>
         </div >
     )
 }

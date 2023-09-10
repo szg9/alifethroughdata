@@ -6,7 +6,8 @@
                 "headerTitle": "ÉSZAKI HADJÁRAT",
                 "headerSubTitle": "Finnország, I. rész",
                 "headerDetails": "indulás | érkezés | Helsinki | első benyomások",
-                "headerReadingTime": "8-10"
+                "headerReadingTime": "8-10",
+                "headerBackground": "../images/w-0001/forest.jpg"
             },
             {
                 "component": "section",
@@ -22,7 +23,16 @@
             },
             {
                 "component": "gallery",
-                "id": "14877190"
+                "images": [
+                    "../images/w-0001/church_1.jpg",
+                    "../images/w-0001/church_2.jpg",
+                    "../images/w-0001/johns-building.jpg",
+                    "../images/w-0001/railway-station.jpg",
+                    "../images/w-0001/statue.jpg",
+                    "../images/w-0001/sunset-along-river_2.jpg",
+                    "../images/w-0001/sunset-along-river_1.jpg",
+                    "../images/w-0001/sunset-in-park.jpg"
+                ]
             },
             {
                 "component": "framedArea",
@@ -64,7 +74,14 @@
             },
             {
                 "component": "gallery",
-                "id": "14884003"
+                "images": [
+                    "../images/w-0001/farm_1.jpg",
+                    "../images/w-0001/lamb.jpg",
+                    "../images/w-0001/cow.jpg",
+                    "../images/w-0001/farm_2.jpg",
+                    "../images/w-0001/rainbow.jpg",
+                    "../images/w-0001/by-the-lake.jpg"
+                ]
             },
             {
                 "component": "section",
@@ -85,7 +102,7 @@
             },
             {
                 "component": "image",
-                "src": "../images/W-0001/lake.png"
+                "url": "../images/w-0001/lake.jpg"
             },
             {
                 "component": "section",
@@ -100,7 +117,8 @@
                 "headerTitle": "UP IN THE NORTH",
                 "headerSubTitle": "Finland, Part 1",
                 "headerDetails": "departure | arrival | Helsinki | first impressions",
-                "headerReadingTime": "8-10"
+                "headerReadingTime": "8-10",
+                "headerBackground": "../images/w-0001/forest.jpg"
             },
             {
                 "component": "section",
@@ -116,7 +134,16 @@
             },
             {
                 "component": "gallery",
-                "id": "14877190"
+                "images": [
+                    "../images/w-0001/church_1.jpg",
+                    "../images/w-0001/church_2.jpg",
+                    "../images/w-0001/johns-building.jpg",
+                    "../images/w-0001/railway-station.jpg",
+                    "../images/w-0001/statue.jpg",
+                    "../images/w-0001/sunset-along-river_2.jpg",
+                    "../images/w-0001/sunset-along-river_1.jpg",
+                    "../images/w-0001/sunset-in-park.jpg"
+                ]
             },
             {
                 "component": "framedArea",
@@ -158,7 +185,14 @@
             },
             {
                 "component": "gallery",
-                "id": "14884003"
+                "images": [
+                    "../images/w-0001/farm_1.jpg",
+                    "../images/w-0001/lamb.jpg",
+                    "../images/w-0001/cow.jpg",
+                    "../images/w-0001/farm_2.jpg",
+                    "../images/w-0001/rainbow.jpg",
+                    "../images/w-0001/by-the-lake.jpg"
+                ]
             },
             {
                 "component": "section",
@@ -179,7 +213,7 @@
             },
             {
                 "component": "image",
-                "src": "../images/W-0001/lake.png"
+                "url": "../images/w-0001/lake.jpg"
             },
             {
                 "component": "section",
